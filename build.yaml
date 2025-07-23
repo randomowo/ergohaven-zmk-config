@@ -4,10 +4,10 @@ include:
     shield: velvet_v3_ui_left
   - board: ergohaven
     shield: velvet_v3_ui_right
-    keymap: velvet_v3_ui_ruen
+    keymap: velvet_v3_ui
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: velvet_v3_ui_right_ruen-ergohaven-zmk
+    artifact-name: velvet_v3_ui_right-ergohaven-zmk
   - board: ergohaven
     shield: velvet_v3_ui_right
     snippet: studio-rpc-usb-uart
@@ -19,10 +19,10 @@ include:
     artifact-name: velvet_v3_ui_dongle-ergohaven-zmk
   - board: ergohaven
     shield: velvet_v3_ui_dongle dongle dongle_screen # or prospector_adapter
-    keymap: velvet_v3_ui_ruen
+    keymap: velvet_v3_ui
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: velvet_v3_ui_dongle_ruen-ergohaven-zmk
+    artifact-name: velvet_v3_ui_dongle-ergohaven-zmk
   - board: ergohaven
     shield: velvet_v3_ui_right_dongle
 
