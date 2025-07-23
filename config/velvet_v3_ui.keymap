@@ -100,26 +100,26 @@
             display-name = "Sniper";
         };
 
-        game1 {
+        game_main {
             bindings = <
-&trans  &kp T           &kp Q   &kp W   &kp E   &kp R                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &kp G           &kp A   &kp S   &kp D   &kp F                    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp Z   &kp X   &kp C   &kp V                    &trans  &trans    &trans    &trans    &trans  &trans
-                        &trans  &trans  &trans  &mo 8  &trans    &trans  &trans  &trans    &trans    &trans
+&none  &kp T           &kp Q  &kp W  &kp E  &kp R                  &none  &none     &none     &none     &none  &none
+&none  &kp G           &kp A  &kp S  &kp D  &kp F                  &none  &mkp MB1  &mkp MB3  &mkp MB2  &none  &none
+&none  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V                  &none  &none     &none     &none     &none  &none
+                       &none  &none  &none  &mo 8  &none    &none  &none  &none     &none     &none
             >;
 
-            display-name = "Game1";
+            display-name = "Game Main";
         };
 
-        game2 {
+        game_secondary {
             bindings = <
 &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4                    &trans  &trans  &trans  &trans  &trans  &tog 0
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &none   &trans  &trans
             >;
 
-            display-name = "Game2";
+            display-name = "Game Secondary";
         };
 
         rcmd {
