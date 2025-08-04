@@ -102,10 +102,10 @@
 
         game_main {
             bindings = <
-&none  &kp T           &kp Q  &kp W  &kp E  &kp R                  &none  &none      &none      &none      &none  &none
-&none  &kp G           &kp A  &kp S  &kp D  &kp F                  &none  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
-&none  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V                  &none  &none      &none      &none      &none  &none
-                       &none  &none  &none  &mo 8  &none    &none  &none  &none      &none      &none
+&kp ESCAPE    &kp T           &kp Q  &kp W  &kp E      &kp R                  &none  &none      &none      &none      &none  &none
+&kp TAB       &kp G           &kp A  &kp S  &kp D      &kp F                  &mo 5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V                  &none  &none      &none      &none      &none  &none
+                              &none  &none  &kp LCTRL  &mo 8  &none    &none  &none  &none      &none      &none
             >;
 
             display-name = "Game Main";
@@ -113,7 +113,7 @@
 
         game_secondary {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4                    &trans  &trans  &trans  &trans  &trans  &tog 7
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4                    &kp N5  &kp N6  &trans  &trans  &trans  &tog 7
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &none   &trans  &trans
