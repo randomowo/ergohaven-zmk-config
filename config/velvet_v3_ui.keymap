@@ -113,7 +113,7 @@
 
         game_secondary {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4                    &trans  &trans  &trans  &trans  &trans  &tog 0
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4                    &trans  &trans  &trans  &trans  &trans  &tog 7
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &none   &trans  &trans
