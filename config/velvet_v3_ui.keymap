@@ -69,10 +69,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &mo 5   &mkp MB1  &mkp MB2  &mkp MB3  &mo 6   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &mo 5   &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo 6   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans     &trans     &trans     &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans
             >;
 
             display-name = "Mouse";
@@ -102,10 +102,10 @@
 
         game_main {
             bindings = <
-&none  &kp T           &kp Q  &kp W  &kp E  &kp R                  &none  &none     &none     &none     &none  &none
-&none  &kp G           &kp A  &kp S  &kp D  &kp F                  &none  &mkp MB1  &mkp MB3  &mkp MB2  &none  &none
-&none  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V                  &none  &none     &none     &none     &none  &none
-                       &none  &none  &none  &mo 8  &none    &none  &none  &none     &none     &none
+&none  &kp T           &kp Q  &kp W  &kp E  &kp R                  &none  &none      &none      &none      &none  &none
+&none  &kp G           &kp A  &kp S  &kp D  &kp F                  &none  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
+&none  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V                  &none  &none      &none      &none      &none  &none
+                       &none  &none  &none  &mo 8  &none    &none  &none  &none      &none      &none
             >;
 
             display-name = "Game Main";
