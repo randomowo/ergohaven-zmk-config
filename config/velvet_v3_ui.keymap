@@ -102,10 +102,10 @@
 
         game_main {
             bindings = <
-&kp ESCAPE    &kp T           &kp Q  &kp W  &kp E      &kp R                  &none  &none      &none      &none      &none  &none
-&kp TAB       &kp G           &kp A  &kp S  &kp D      &kp F                  &mo 5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V                  &none  &none      &none      &none      &none  &none
-                              &none  &none  &kp LCTRL  &mo 8  &none    &none  &none  &none      &none      &none
+&kp ESCAPE    &kp T           &kp Q  &kp W  &kp E      &kp R                      &none  &none      &none      &none      &none  &none
+&kp TAB       &kp G           &kp A  &kp S  &kp D      &kp F                      &mo 5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V                      &none  &none      &none      &none      &none  &none
+                              &none  &none  &kp LCTRL  &mo 8  &kp SPACE    &none  &none  &none      &none      &none
             >;
 
             display-name = "Game Main";
