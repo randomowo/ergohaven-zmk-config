@@ -25,10 +25,10 @@
 
         base {
             bindings = <
-&kp ESC    &kp Q  &kp W     &kp E     &kp R      &kp T                        &kp Y  &kp U  &kp I      &kp O     &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S     &kp D     &kp F      &kp G                        &kp H  &kp J  &kp K      &kp L     &kp SEMI  &kp BSLH
-&kp LSHFT  &kp Z  &kp X     &kp C     &kp V      &kp B                        &kp N  &kp M  &kp COMMA  &kp DOT   &kp SQT   &kp RSHFT
-                  &kp LALT  &kp LGUI  &kp LCTRL  &mo 1  &kp SPACE    &kp RET  &mo 2  &mo 4  &kp LBKT   &kp RBKT
+&kp ESC    &kp Q  &kp W     &kp E      &kp R     &kp T                        &kp Y  &kp U  &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S     &kp D      &kp F     &kp G                        &kp H  &kp J  &kp K      &kp L     &kp SEMI  &kp BSLH
+&kp LSHFT  &kp Z  &kp X     &kp C      &kp V     &kp B                        &kp N  &kp M  &kp COMMA  &kp DOT   &kp SQT   &kp RSHFT
+                  &kp LALT  &kp LCTRL  &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &mo 4  &kp LBKT   &kp RBKT
             >;
 
             display-name = "Base";
@@ -102,10 +102,10 @@
 
         game_main {
             bindings = <
-&kp ESCAPE    &kp T           &kp Q  &kp W         &kp E      &kp R                      &none  &none      &none      &none      &none  &none
-&kp TAB       &kp B           &kp A  &kp S         &kp D      &kp F                      &mo 5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
-&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X         &kp C      &kp V                      &none  &none      &none      &none      &none  &none
-                              &none  &kp LEFT_GUI  &kp LCTRL  &mo 8  &kp SPACE    &none  &none  &none      &none      &none
+&kp ESCAPE    &kp T           &kp Q  &kp W      &kp E         &kp R                      &none  &none      &none      &none      &none  &none
+&kp TAB       &kp B           &kp A  &kp S      &kp D         &kp F                      &mo 5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none  &none
+&kp LEFT_ALT  &kp LEFT_SHIFT  &kp Z  &kp X      &kp C         &kp V                      &none  &kp M      &none      &none      &none  &none
+                              &none  &kp LCTRL  &kp LEFT_GUI  &mo 8  &kp SPACE    &none  &none  &none      &none      &none
             >;
 
             display-name = "Game Main";
