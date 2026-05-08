@@ -6,10 +6,14 @@ include:
     shield: velvet_v3_ui_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+
+  - board: ergohaven
+    shield: op36_left
   - board: ergohaven
     shield: velvet_v3_ui_qube qube dongle_screen
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: velvet_v3_ui_qube-ergohaven-zmk
+
   - board: ergohaven
     shield: velvet_v3_ui_right_qube
