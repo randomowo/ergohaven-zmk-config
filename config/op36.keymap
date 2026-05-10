@@ -56,9 +56,9 @@
 
         base {
             bindings = <
-  &kp Q        &kp W        &kp E         &kp R          &kp T                          &kp Y  &kp U         &kp I         &kp O        &kp P
-  &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F   &kp G                          &kp H  &hmr RCTRL J  &hmr RSHFT K  &hmr LALT L  &hmr LEFT_GUI SEMICOLON
-  &kp Z        &kp X        &kp C         &kp V          &kp B                          &kp N  &kp M         &kp COMMA     &kp DOT      &hmr RIGHT_GUI SQT
+  &kp Q        &kp W        &kp E         &kp R          &kp T                          &kp Y  &kp U         &kp I              &kp O        &kp P
+  &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F   &kp G                          &kp H  &hmr LCTRL J  &hmr LEFT_SHIFT K  &hmr LALT L  &hmr LEFT_GUI SEMICOLON
+  &kp Z        &kp X        &kp C         &kp V          &kp B                          &kp N  &kp M         &kp COMMA          &kp DOT      &hmr RIGHT_GUI SQT
                                           &kp BACKSPACE  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
             >;
 
@@ -67,9 +67,9 @@
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6    &kp N7           &kp N8         &kp N9           &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT  &hmr RCTRL DOWN  &hmr RSHFT UP  &hmr LALT RIGHT  &kp LEFT_GUI
-  &none          &none     &none      &none      &kp DELETE                    &kp CAPS  &none            &none          &none            &none
+  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6    &kp N7           &kp N8          &kp N9           &kp N0
+  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT  &hmr LCTRL DOWN  &hmr LSHIFT UP  &hmr LALT RIGHT  &kp LEFT_GUI
+  &none          &none     &none      &none      &kp DELETE                    &kp CAPS  &none            &none           &none            &none
                                       &trans     &trans      &trans    &trans  &mo 3     &trans
             >;
 
@@ -78,9 +78,9 @@
 
         sym {
             bindings = <
-  &none           &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                     &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &none
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                      &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr LEFT_GUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp DOLLAR                    &kp AT     &kp PIPE         &kp TILDE        &kp AMPS        &none
+  &none           &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                     &kp CARET  &kp LBKT         &kp UNDER         &kp RBKT        &none
+  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                      &kp PRCNT  &hmr LCTRL LBRC  &hmr LSHIFT SEMI  &hmr LALT RBRC  &hmr LEFT_GUI EXCL
+  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp DOLLAR                    &kp AT     &kp PIPE         &kp TILDE         &kp AMPS        &none
                                                     &trans           &mo 3       &trans    &trans  &trans     &trans
             >;
 
@@ -90,7 +90,7 @@
         adj {
             bindings = <
   &none     &kp F1        &kp F2         &kp F3         &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
-  &kp LGUI  &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &kp F8                     &none         &hmr RCTRL C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp LEFT_GUI
+  &kp LGUI  &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &kp F8                     &none         &hmr LCTRL C_VOL_DN  &hmr LSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp LEFT_GUI
   &none     &kp F9        &kp F10        &kp F11        &kp F12                    &none         &kp C_PREV           &kp C_PP           &kp C_NEXT          &none
                                          &trans         &trans   &trans    &trans  &trans        &trans
             >;
