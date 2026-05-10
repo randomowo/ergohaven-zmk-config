@@ -67,9 +67,9 @@
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6    &kp N7         &kp N8           &kp N9           &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT  &hmr RCTRL UP  &hmr RSHFT DOWN  &hmr LALT RIGHT  &kp LEFT_GUI
-  &none          &none     &none      &none      &kp DELETE                    &kp CAPS  &none          &none            &none            &none
+  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6    &kp N7           &kp N8         &kp N9           &kp N0
+  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT  &hmr RCTRL DOWN  &hmr RSHFT UP  &hmr LALT RIGHT  &kp LEFT_GUI
+  &none          &none     &none      &none      &kp DELETE                    &kp CAPS  &none            &none          &none            &none
                                       &trans     &trans      &trans    &trans  &mo 3     &trans
             >;
 
